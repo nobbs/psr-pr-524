@@ -1,0 +1,4 @@
+[tool.semantic_release]
+version_variable = ["some_module.py:__version__"]
+commit_subject = "bump: version {version}"
+branch = "main"
